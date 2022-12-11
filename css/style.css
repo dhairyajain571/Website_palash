@@ -1,0 +1,49 @@
+.departments{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 2rem;
+}
+
+section{
+    padding: 4rem;
+}
+
+.Faculty__Section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+body {
+    background: rgb(18,15,17);
+background: linear-gradient(56deg, rgba(18,15,17,1) 0%, rgba(28,19,40,1) 52%, rgba(0,0,0,1) 100%);
+}
+
+.table_about{
+    color: white;
+}
+
+@media screen and (max-width :1024px) {
+
+    .departments{
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+       
+    }
+    .Faculty__Section{
+        grid-template-columns: 1fr;
+    }
+  
+   }
+   
+
+
+   
